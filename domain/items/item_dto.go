@@ -5,7 +5,7 @@ type Item struct {
 	Seller           int64       `json:"seller"`
 	Title            string      `json:"title"`
 	Description      Description `json: "description"`
-	Picture          []Picture   `json:"picture"`
+	Picture          []Picture   `json:"pictures"`
 	Video            string      `json:"video"`
 	Price            float32     `json:"price"`
 	AvailableQantity int64       `json:"available_qantity"`
